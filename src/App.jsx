@@ -36,7 +36,7 @@ function App(props) {
         </div>
         <div className="component-container grey">
           <h1>component 4</h1>
-     {/* <RateReview/> */}
+     <RateReview/>
         </div>
       </div>
       <br></br>
