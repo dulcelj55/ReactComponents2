@@ -6,6 +6,7 @@ import UserProfileCard from './Components/UserProfileCard';
 import RateReview from './Components/RateReview';
 import ImageCarousel from './Components/ImageCarousel';
 
+
 function App(props) {
 
   const [news, setNews]= useState(["Man steals bread", "Man released after 19 years steals again", "Priest forgives man"])

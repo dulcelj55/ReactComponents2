@@ -19,6 +19,8 @@ const UserProfileCard = () => {
     setUserNewBio(userBio)
     setIsSubmitted(true)                
     }
+  
+
 
   
    
@@ -40,7 +42,8 @@ const UserProfileCard = () => {
             <>
                 <p>User Image: {profile[1]}</p>
                 <p>You're logged in as: {profile[0]}</p>
-                <p>User Bio: {profile[2]}</p>       
+                <p>User Bio: {profile[2]}</p>  
+                     
             </>
             )
         }
