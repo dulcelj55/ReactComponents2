@@ -1,10 +1,12 @@
 import {useState} from 'react'
 import "./index.css"
+import curious from "../../assets/Images/curious.jpeg"
+
 
 
 
 const ImageCarousel = () => {
-const [images, setImages]= useState(["src/assets/Images/curious.jpeg","src/assets/Images/muzzle.jpeg","src/assets/Images/silly.jpeg","src/assets/Images/smile.jpeg","src/assets/Images/sweetbug.jpeg" ])
+const [images, setImages]= useState([{curious},"src/assets/Images/muzzle.jpeg","src/assets/Images/silly.jpeg","src/assets/Images/smile.jpeg","src/assets/Images/sweetbug.jpeg" ])
 const [currentIndex, setCurrentIndex]= useState(0)
 const nextHandle =(e)=>{
 e.preventDefault() 
